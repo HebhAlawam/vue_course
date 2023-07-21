@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="{ name: 'EventList' }">Event</router-link> |
-      <router-link to="{ name: 'about' }">About</router-link>
+      <router-link :to="{ name: 'EventList' }">Events</router-link> |
+      <router-link :to="{ name: 'about' }">About</router-link>
     </div>
     <router-view />
   </div>
